@@ -1,0 +1,8 @@
+.jumbotron {
+    background: url(../assets/bgimg.jpeg) no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 600px;
+    width: 92%;
+}
