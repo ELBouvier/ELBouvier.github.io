@@ -1,0 +1,41 @@
+#quoteCard > div.card-body {
+    background-color: rgba(0, 255, 242, 0.452);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+#quoteCard {
+    border:none;
+}
+
+#quoteCard > div.card-header {
+    background-color: rgba(0, 102, 97, 0.664);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.75rem;
+}
+
+#quote {
+    min-height:100px;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#botFooter {
+    height:2rem;
+    background-color:black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#botFooter > div > span > a {
+    position:relative;
+    text-align: center;
+    font-size: 1rem;
+    color:white;
+    top:50%
+}
+
+#botFooter > div > span > a:hover {
+    color:yellow;
+}

@@ -1,0 +1,27 @@
+.carousel-inner {
+    height: 20rem;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+    min-height: 100px;
+    max-height: 2in;
+}
+
+#work {
+    background-color: white;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+#carouselExampleControls > div > div:nth-child(1) > h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#carouselExampleControls > div > div:nth-child(2) > h1 {
+    font-family: 'Roboto', sans-serif;
+}

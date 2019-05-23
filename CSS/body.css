@@ -1,4 +1,62 @@
-body {
-    background: var(--darkYellow);
-    font-family: var(--font-one);
+.jumbotron1 {
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 1rem 1rem;
+    margin-bottom: 70vh;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    width: 50%;
 }
+
+.jumboText {
+    position: relative;
+    font-size: 5.5rem;
+    font-weight: 125;
+    line-height: 1.2;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumboMiniText {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.jumboMiniMini {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.bgTextureOne {
+    object-fit: cover;
+    z-index: 100000;
+    height: 45rem;
+    overflow: hidden;
+}
+
+.libadgewrap {
+  text-align:center;
+}
+
+.libadgein {
+  display:inline-block;
+}
+
+

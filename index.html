@@ -1,133 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eric Bouvier</title>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Eric Bouvier</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./CSS/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
 </head>
 
 <body>
 
+  <!-- Background video -->
+  <div class="fullscreen-bg">
+    <video loop muted autoplay poster="C:\Users\ericl\Desktop\Eleven Fifty\Projects\Portfolio\assets\Love-Coding.jpg"
+      class="fullscreen-bg__video">
+      <source src="C:\Users\ericl\Desktop\Eleven Fifty\Projects\Portfolio\assets\Love-Coding.webm" type="video/webm">
+      <source src="C:\Users\ericl\Desktop\Eleven Fifty\Projects\Portfolio\assets\Love-Coding.mp4" type="video/mp4">
+    </video>
+  </div>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbarBG">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto" id="nav-content">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbarBG">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" id="nav-content">
+        <li class="nav-item active">
+          <a class="navLinks" href="#about">About Me<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="navLinks" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="navLinks" href="#work">My Work</a>
+        </li>
+        <iframe class='navButtons'
+          src="https://ghbtns.com/github-btn.html?user=ELBouvier&type=follow&count=true&size=large" frameborder="0"
+          scrolling="0" width="220px" height="30px"></iframe>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <section id="home">
+    <div class="jumbotron1 jumboContainer">
+      <h1 class="jumboText">Eric Bouvier</h1>
+      <p class="jumboMiniText">Junior Javascript Developer.</p>
+      <p class="jumboMiniMini">(It's Boo-Vee-Ayy)</p>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section id="quote">
+    <div class="container col-1"></div>
+    <div class="container col-8">
+      <div class="card" id="quoteCard">
+        <div class="card-header">
+          Quote
         </div>
-      </nav>
-
-
-<section class="header">
-    
-</section>
-
-<!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">WOW!</h1>
-          <p class="lead">Wouldja lookat that.</p>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>Accept the things to which fate binds you, and love the people with whom fate brings you together, but do
+              so with all your heart.</p>
+            <footer class="blockquote-footer">Marcus Aurelius </footer>
+          </blockquote>
         </div>
       </div>
+    </div>
+    <div class="container col-1"></div>
+  </section>
 
-<!-- About -->
-<section id="about"></section>
+  <!-- About -->
+  <section id="about">
+    <div class='container'>
+      <div id='aboutHead'>
+        <h1>What you should know about me</h1>
+      </div>
 
+      <div class='row'>
+        <div id='aboutPersonal' class='col-4'>
+          <h4>Personal</h4>
+          <p>My name is Eric Bouvier. I am the proud father of two fluffy boys named Osiris and Blu. They are both
+            Australian cattle dogs-- soon to be competetive flyball players. I love movies, especially
+            Tarantino's films and anything Marvel. If I'm not training with my dogs, watching a movie, or playing
+            some video games chances are that I am  
+          </p>
+        </div>
 
-<!-- Contact -->
-<section id="contact">
-        <div class="container">
-          <h2 class="text-center text-uppercase">Contact Me</h2>
-          <div class="row">
-            <form action="https://formspree.io/YOUR EMAIL HERE" method="POST">
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Your Name"
-                    id="name"
-                    required
-                    data-validation-required-message="Please enter your name"
-                    name="name"
-                    >
-                  <p class="help-block text-danger"></p>
-                </div>
+        <div id='aboutProfessional' class='col-4'>
+          <h4>Professional</h4>
+          <p> I graduated from Ball State University in the Summer of 2017. I'll be graduating from Eleven Fifty
+            Academy's extensive and accelerated Javascript bootcamp in early August, and my goal is to get a job
+            within a month of graduation. I hope that you are convinced that you should be
+            the employer to help with that goal. If not, I would still love to hear your feedback.
+          </p>
+        </div>
+
+        <div class='col-1 vertRule'>
+        </div>
+
+        <div class="libadgewrap">
+          <div class="libadgein">
+            <div id='badge' class='col-3'>
+              <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
+                data-type="vertical" data-theme="light" data-vanity="elbouvier"><a class="LI-simple-link"
+                  href='https://www.linkedin.com/in/elbouvier?trk=profile-badge'>Eric Bouvier</a>
               </div>
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Email Address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Your Email"
-                    id="email"
-                    required
-                    data-validation-required-message="Please enter your email"
-                    name="_replyto"
-                  >
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    rows="7"
-                    placeholder="Your Message"
-                    id="message"
-                    required
-                    data-validation-required-message="Please leave a message"
-                    name="message"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn btn-lg btn-black">
-                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                  Send Message
-                </button>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
-      </section>
 
-<!-- Script Tags -->
-    <script src="main.js"><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></script>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Carousel -->
+  <section id="work">
+    <div class="container">
+
+      <div id='aboutHead' class="col">
+        <h1>Links to my work:</h1>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <h1>A static webpage.</h1>
+            <a href="https://elbouvier.github.io/Static-Webpage/"><img
+                src="./assets/staticWebpage.jpg"
+                class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item active">
+            <h1>A CSS illustration.</h1>
+            <a href="https://codepen.io/elbouvier/pen/JqoOOL"><img
+                src="./assets/cssCreature.jpg"
+                class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <h1>A recipe search engine.</h1>
+            <a href="https://recipe-search-api-project.firebaseapp.com/?">
+            <img src="./assets/recipeSearch.jpg"
+            class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id='contact'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col'>
+          <form id="contactForm" action="//formspree.io/Eric.Lee.Bouvier@gmail.com" method="POST">
+            <h2>Let's work together</h2>
+            <input type="text" name="name" placeholder="Your name">
+            <br>
+            <br>
+            <input type="email" name="_replyto" placeholder="Your email">
+            <br>
+            <br>
+            <textarea name="message" placeholder="What needs done and when can we get started?"></textarea>
+            <br>
+            <input id="contactButton" type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="botFooter">
+      <div class="container">
+        <span class="text-muted"><a class="botFootLink" href="#home">Back to top.</a></span>
+      </div>
+  </footer>
+
+
+  <!-- Script Tags -->
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+
 </body>
+
 </html>

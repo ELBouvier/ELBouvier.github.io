@@ -1,0 +1,57 @@
+#contact {
+    background-color: transparent; 
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 1px solid #fff; 
+    color: #fff; 
+    height: 80vh;
+    background-image: url(file:///C:/Users/ericl/Desktop/Eleven%20Fifty/Projects/Portfolio/assets/contactbg.jpg);
+} 
+
+#contactForm {
+    position: relative;
+    top:5rem;
+}
+
+input {
+    text-transform: uppercase;
+    padding: 10px 60px;
+    color: white;
+    background: rgba(68, 68, 68, 0.5);
+    font-weight: normal;
+    margin-bottom:1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#contactButton {
+    background: rgba(68, 68, 68, 0.918);
+}
+    
+::placeholder {
+    color: white;
+}
+
+textarea {
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    color: white;
+    background: rgba(68, 68, 68, 0.5);
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    font-weight: 125;
+    position: relative;
+    text-align: center;
+    color: WHITE;
+}

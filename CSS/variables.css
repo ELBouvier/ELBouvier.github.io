@@ -1,14 +1,10 @@
 :root {
-    --yellow: #FFF400;
-    --darkYellow: #3E3B00;
-    --white: #ffffff;
-    --black: #000000;
-    --orange: #FFA100;
-    --darkOrange: #3E2700;
-    --color1: rgba(39, 39, 39, 1);
-    --color2: rgba(211, 208, 203, 1);
-    --color3: rgba(226, 192, 68, 1);
-    --color4: rgba(249, 220, 92, 1);
-    --color5: rgba(254, 215, 102, 1);
-    --font-one: 'Modak', cursive;
+     /*
+Font-Family: 'Roboto', Sans-Serif;
+Font-Size: 35px;
+Font-Family: 'Droid Serif', Serif;
+Font-Size: 15px;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Roboto', sans-serif;
+     */
 }
